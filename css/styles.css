@@ -100,6 +100,34 @@ body {
   align-items: center;
 }
 
+#pie{
+  background-color: white;
+  grid-area: footer;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100vw;
+  padding: 10px 30px 10px 30px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 5;
+}
+
+#pie a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+#pie .pie__redes{
+  display: flex;
+  gap: 10px;
+}
+
+.redes{
+  width: 25px;
+
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
